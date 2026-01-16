@@ -1,0 +1,108 @@
+/* Sections */
+.section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.hero, .services, .contact {
+    background: #f8f8f8;
+}
+
+.gallery, .about {
+    background: #fff;
+}
+
+/* Banner */
+.banner {
+    background: #d1006c;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    font-size: 48px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+/* Hero Content */
+.hero-content,
+.gallery-content,
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 50px;
+}
+
+.hero-text {
+    width: 45%;
+    text-align: left;
+    opacity: 0;
+    transition: opacity 2s;
+}
+
+/* Services Form */
+.services form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.services input,
+.services select,
+.services textarea {
+    padding: 10px;
+    width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #d1006c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Pop-up */
+.popup {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: #d1006c;
+    color: white;
+    padding: 20px;
+    width: 300px;
+    display: none;
+    border-radius: 10px;
+}
+
+/* Gallery and About images */
+.image-container img {
+    width: 400px;
+    height: 300px;
+}
+
+.about-image-container img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+/* Text containers */
+.text-container, .about-text-container {
+    width: 45%;
+    text-align: left;
+}
